@@ -1,0 +1,64 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="57EA8iC35g4Syo_O7HXz">
+    <mxGraphModel dx="1025" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="640" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GfGdQt8RYddeDUFvzc0P-3" target="GfGdQt8RYddeDUFvzc0P-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="520" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GfGdQt8RYddeDUFvzc0P-6" target="GfGdQt8RYddeDUFvzc0P-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="310" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GfGdQt8RYddeDUFvzc0P-7" target="GfGdQt8RYddeDUFvzc0P-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="110" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-8" value="Control-plane" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="310" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-13" value="Kind K8S" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="80" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-14" value="Worker1&lt;div&gt;&lt;code class=&quot;listtype-code listindent1 list-code1 lang-yaml&quot; spellcheck=&quot;false&quot;&gt;tier: infra&lt;/code&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-15" value="Worker2&lt;div&gt;&lt;code class=&quot;listtype-code listindent1 list-code1 lang-yaml&quot; spellcheck=&quot;false&quot;&gt;tier: app&lt;/code&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-16" value="Worker3&lt;div&gt;&lt;code class=&quot;listtype-code listindent1 list-code1 lang-yaml&quot; spellcheck=&quot;false&quot;&gt;tier: app&lt;/code&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-17" value="MetalLB&lt;div&gt;speaker&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-18" value="Prometheus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-19" value="kube state metrics" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GfGdQt8RYddeDUFvzc0P-20" target="GfGdQt8RYddeDUFvzc0P-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-20" value="Grafana&lt;div&gt;(Docker)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="170" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GfGdQt8RYddeDUFvzc0P-23" value="APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
