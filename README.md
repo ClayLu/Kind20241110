@@ -159,6 +159,11 @@ docker run -d -p 3000:3000 --name=grafana \
 (2)
 可以從本機的http://localhost:3000/login登入
 (3)
+找到infra node ip搭配prometheus的nodeport，設定datasource為prometheus
+```
+http://192.168.228.4:30090/
+```
+(4)
 將src/Dashboard中所有檔案import到Grafana dashboard中
 
 ## 安裝app和hpa
