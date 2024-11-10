@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: helloworld-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: helloworld-pod
+  template:
+    metadata:
+      labels:
+        app: helloworld-pod
+    spec:
+      nodeSelector:
+        tier: app
+      containers:
+      - name: my-pod
+        imagePullPolicy: IfNotPresent
+        image: 632077671272.dkr.ecr.ap-northeast-1.amazonaws.com/mirror-api-nginx-prod:latest
+        ports:
+        - containerPort: 3000
+        resources:
+          requests:
+            cpu: 200m
