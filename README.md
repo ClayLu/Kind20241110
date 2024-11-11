@@ -184,3 +184,18 @@ kind load docker-image  docker-demo:latest --name mykind1
 imagePullPolicy: IfNotPresent
 ```
 
+## 11/11補充 搜集cAdvisor資料(包含throttled資料)
+
+(1)prometheus這段註解
+```
+    cAdvisorMetricRelabelings:
+      # Drop less useful container CPU metrics.
+      #- sourceLabels: [__name__]
+      #  action: drop
+      #  regex: 'container_cpu_(cfs_throttled_seconds_total|load_average_10s|system_seconds_total|user_seconds_total)'
+      # Drop less useful container / always zero filesystem metrics.
+```
+
+(2)Pod要設定resource的request和limit
+
+(3)確認Prometheus的endpoint https://x.x.x.x:10250/metrics/cadvisor 是up，而且相關metric有進來
